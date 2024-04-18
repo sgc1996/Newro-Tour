@@ -2302,6 +2302,7 @@ body.visible-sidebar{
 
 .package-block.alt .lower-box .location{
   margin-bottom: 5px;
+  font-size: 1.3em;
 }
 
 .package-block .lower-box h5{
@@ -4858,6 +4859,7 @@ body.visible-sidebar{
 
 .packages-two .title-outer .tab-buttons .active-btn{
   color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
 }
 
 .packages-two .lower-data{
@@ -6117,7 +6119,7 @@ body.visible-sidebar{
 
 .inner-banner{
   position: relative;
-  padding: 300px 0px 300px;
+  padding: 310px 0px 310px;
 }
 
 .inner-banner .image-layer{
