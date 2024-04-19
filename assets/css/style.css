@@ -9150,6 +9150,7 @@ body.visible-sidebar{
 .t-gallery{
   position: relative;
   margin-bottom: 60px;
+  margin-top: 60px;
 }
 
 .t-gallery .images{
