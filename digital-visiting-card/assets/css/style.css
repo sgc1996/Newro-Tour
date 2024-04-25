@@ -20,6 +20,7 @@ body {
     box-shadow: 4px 3px 16px 0px;
     padding: 50px;
     background-image: url(../img/footer.png);
+    border: 5px solid rgb(31 65 26 / 37%);
 }
 
 .logo-prof-area {
