@@ -1,0 +1,131 @@
+body {
+    margin: auto;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    background: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.box-area {
+    width: 700px;
+    height: auto;
+    margin: auto;
+    border-radius: 35px;
+    box-shadow: 4px 3px 16px 0px;
+    padding: 50px;
+    background-image: url(../img/footer.png);
+}
+
+.logo-prof-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.logo-prof-area img {
+    height: 150px;
+    border-radius: 20px;
+}
+
+.title-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #284822;
+}
+
+.title-area h2 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+.title-area h3 {
+    font-size: 1.5em;
+}
+
+.social-media img {
+    width: 80px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    color: #284822;
+    box-shadow: 5px 2px 10px 2px;
+    transition: 0.3s;
+}
+
+.social-media img:hover{
+    transform: scale(1.1);
+}
+
+.social-media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 639px) {
+    .logo-prof-area img {
+        height: 100px;
+        border-radius: 10px;
+        margin:  0 10px;
+    }
+
+    .title-area h2 {
+        font-size: 1.5em;
+        margin-bottom: 0;
+    }
+    
+    .title-area h3 {
+        font-size: 1em;
+    }
+
+    .social-media img {
+        width: 50px;
+        padding: 8px;
+        margin: 8px;
+        border-radius: 50%;
+        color: #284822;
+        box-shadow: 5px 2px 10px 2px;
+        transition: 0.3s;
+    }
+}
+
+@media only screen and (max-width: 435px) {
+    .pro-pic {
+        order: 2;
+    }
+
+    .logo {
+        order: 1;
+    }
+
+    .logo-prof-area img {
+        margin:  8px 10px;
+    }
+
+    .title-area h2 {
+        font-size: 1em;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+    
+    .title-area h3 {
+        font-size: 0.8em;
+    }
+
+    .social-media img {
+        width: 50px;
+        padding: 8px;
+        margin: 8px 20px;
+        border-radius: 50%;
+        color: #284822;
+        box-shadow: 5px 2px 10px 2px;
+        transition: 0.3s;
+    }
+}
