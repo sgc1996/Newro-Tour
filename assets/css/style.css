@@ -898,6 +898,10 @@ form label.error{
   color: var(--facebook-color);
 }
 
+.header-top .social li a.instagram{
+  color: var(--instagram-color);
+}
+
 .header-top .social li a.twitter{
   color: var(--twitter-color);
 }
@@ -908,6 +912,10 @@ form label.error{
 
 .header-top .social li a.youtube{
   color: var(--youtube-color);
+}
+
+.header-top .social li a.whatapp{
+  color: var(--whatsapp-color);
 }
 
 .header-top .social li a:hover{
@@ -1059,6 +1067,10 @@ form label.error{
   color: var(--facebook-color);
 }
 
+.main-header .header-upper .social li a.instagram{
+  color: var(--instagram-color);
+}
+
 .main-header .header-upper .social li a.twitter{
   color: var(--twitter-color);
 }
@@ -1069,6 +1081,10 @@ form label.error{
 
 .main-header .header-upper .social li a.youtube{
   color: var(--youtube-color);
+}
+
+.main-header .header-upper .social li a.whatapp{
+  color: var(--whatsapp-color);
 }
 
 .main-header .header-upper .social li a:hover{
@@ -3927,6 +3943,10 @@ body.visible-sidebar{
   background: var(--facebook-color);
 }
 
+.main-footer .social-links li a.instagram{
+  background: var(--instagram-bg-color);
+}
+
 .main-footer .social-links li a.twitter{
   background: var(--twitter-color);
 }
@@ -3937,6 +3957,15 @@ body.visible-sidebar{
 
 .main-footer .social-links li a.youtube{
   background: var(--youtube-color);
+}
+
+.main-footer .social-links li a.whatapp{
+  background: var(--whatsapp-color);
+}
+
+.main-footer .social-links .fab {
+  font-size: x-large;
+  margin-top: 9px;
 }
 
 .main-footer .social-links li a:hover{
@@ -6013,6 +6042,10 @@ body.visible-sidebar{
   color: var(--facebook-color);
 }
 
+.news-block-three .social a.instagram{
+  color: var(--instagram-color);
+}
+
 .news-block-three .social a.twitter{
   color: var(--twitter-color);
 }
@@ -6023,6 +6056,10 @@ body.visible-sidebar{
 
 .news-block-three .social a.youtube{
   color: var(--youtube-color);
+}
+
+.news-block-three .social a.whatapp{
+  color: var(--whatsapp-color);
 }
 
 .news-block-three .social a:hover{
@@ -6461,6 +6498,11 @@ body.visible-sidebar{
   background: var(--facebook-color);
 }
 
+.team-block .social-links li a.instagram{
+  background: var(--instagram-color);
+}
+
+
 .team-block .social-links li a.twitter{
   background: var(--twitter-color);
 }
@@ -6471,6 +6513,10 @@ body.visible-sidebar{
 
 .team-block .social-links li a.youtube{
   background: var(--youtube-color);
+}
+
+.team-block .social-links li a.whatapp{
+  background: var(--whatsapp-color);
 }
 
 .team-block .social-links li a:hover{
@@ -7622,6 +7668,10 @@ body.visible-sidebar{
   background: var(--facebook-color);
 }
 
+.sidebar-container .social-widget .social-links li a.instagram{
+  background: var(--instagram-color);
+}
+
 .sidebar-container .social-widget .social-links li a.twitter{
   background: var(--twitter-color);
 }
@@ -7632,6 +7682,10 @@ body.visible-sidebar{
 
 .sidebar-container .social-widget .social-links li a.youtube{
   background: var(--youtube-color);
+}
+
+.sidebar-container .social-widget .social-links li a.whatapp{
+  background: var(--whatsapp-color);
 }
 
 .sidebar-container .social-widget .social-links li a:hover{
@@ -8126,6 +8180,10 @@ body.visible-sidebar{
   color: var(--facebook-color);
 }
 
+.post-details .social a.instagram{
+  color: var(--instagram-color);
+}
+
 .post-details .social a.twitter{
   color: var(--twitter-color);
 }
@@ -8136,6 +8194,10 @@ body.visible-sidebar{
 
 .post-details .social a.youtube{
   color: var(--youtube-color);
+}
+
+.post-details .social a.whatapp{
+  color: var(--whatsapp-color);
 }
 
 .post-details .social a:hover{
@@ -8307,6 +8369,10 @@ body.visible-sidebar{
   border-radius: 50%;
 }
 
+.sidebar-container .author-box .author-social li a.instagram{
+  background: var(--instagram-color);
+}
+
 .sidebar-container .author-box .author-social li a.facebook{
   background: var(--facebook-color);
 }
@@ -8321,6 +8387,10 @@ body.visible-sidebar{
 
 .sidebar-container .author-box .author-social li a.youtube{
   background: var(--youtube-color);
+}
+
+.sidebar-container .author-box .author-social li a.whatapp{
+  background: var(--whatsapp-color);
 }
 
 .sidebar-container .author-box .author-social li a.instagram{
@@ -10814,44 +10884,6 @@ body.visible-sidebar{
 .mobile-responsive tr,
 .mobile-responsive td {
   padding: 1em !important;
-}
-
-.mobile-responsive tr:nth-child(1),
-.mobile-responsive tr:nth-child(6),
-.mobile-responsive tr:nth-child(13),
-.mobile-responsive tr:nth-child(18) {
-  background: #b47b42;
-  text-align: center;
-  color: white;
-  font-size: 1.1em;
-  font-weight: 500;
-}
-
-.mobile-responsive tr:nth-child(2),
-.mobile-responsive tr:nth-child(3),
-.mobile-responsive tr:nth-child(7),
-.mobile-responsive tr:nth-child(8),
-.mobile-responsive tr:nth-child(9),
-.mobile-responsive tr:nth-child(14),
-.mobile-responsive tr:nth-child(15),
-.mobile-responsive tr:nth-child(19),
-.mobile-responsive tr:nth-child(20) {
-  background: #e5d6cd;
-  color: rgb(75, 75, 75);
-}
-
-.mobile-responsive tr:nth-child(4),
-.mobile-responsive tr:nth-child(5),
-.mobile-responsive tr:nth-child(10),
-.mobile-responsive tr:nth-child(11),
-.mobile-responsive tr:nth-child(12),
-.mobile-responsive tr:nth-child(16),
-.mobile-responsive tr:nth-child(17),
-.mobile-responsive tr:nth-child(21),
-.mobile-responsive tr:nth-child(22),
-.mobile-responsive tr:nth-child(23)  {
-  background: #becfb7;
-  color: rgb(75, 75, 75);
 }
 
 @media screen and (max-width: 599px) {
