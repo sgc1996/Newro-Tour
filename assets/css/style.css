@@ -1620,6 +1620,12 @@ body.visible-sidebar{
   z-index: 2;
 }
 
+@media screen and (max-width: 767px) {
+  .header-video {
+    height: 136%;
+  }
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -4766,7 +4772,7 @@ body.visible-sidebar{
 .popular-section .carousel-box .prev-btn{
   position: absolute;
   right: 66px;
-  top: -100px;
+  top: 0px;
   width: 44px;
   height: 44px;
   text-align: center;
@@ -4782,7 +4788,7 @@ body.visible-sidebar{
 .popular-section .carousel-box .next-btn{
   position: absolute;
   right: 12px;
-  top: -100px;
+  top: 0px;
   width: 44px;
   height: 44px;
   text-align: center;
@@ -5028,7 +5034,7 @@ body.visible-sidebar{
 
 .featured-block-one h3 a:hover,
 .featured-block-one h6 a:hover{
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .featured-block-one .duration{
@@ -10912,3 +10918,40 @@ body.visible-sidebar{
     background-image: linear-gradient(left, #428bca 137px, #ebf3f9 1px, #ebf3f9 100%);
   }
 }*/
+
+  /* Whatsapp Icon
+--------------------------------*/
+/* for desktop */
+.whatsapp_float {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:83px;
+  right:16px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+        font-size:30px;
+  box-shadow: 2px 2px 3px #999;
+        z-index:100;
+}
+
+.whatsapp-icon {
+  margin-top:16px;
+}
+/* for mobile */
+@media screen and (max-width: 767px){
+     .whatsapp-icon {
+   margin-top:10px;
+     }
+    .whatsapp_float {
+        width: 40px;
+        height: 40px;
+        bottom: 80px;
+        right: 22px;
+        font-size: 22px;
+    }
+}
+  /* End Whatsapp Icon
+--------------------------------*/
