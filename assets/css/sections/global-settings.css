@@ -260,9 +260,9 @@ p{
 }
 
 .btn-style-two:hover{
-  color: #d4d4d4;
+  color: var(--dark-gray-gray);
   background: none;
-  border-color: #d4d4d4;
+  border-color: var(--dark-gray-gray);
 }
 
 .btn-style-two i img{
