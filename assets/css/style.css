@@ -3755,6 +3755,19 @@ body.visible-sidebar{
   position: relative;
 }
 
+.style-two::before {
+  content: "";
+  background-image: url(../images/footer.png);
+  background-size: cover;
+  background-position: top;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.1;
+}
+
 .main-footer.style-two{
   color: var(--light-purple-color);
   background: #272d2e;
