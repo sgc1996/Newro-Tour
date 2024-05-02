@@ -947,6 +947,24 @@
 		text-align: center;
 	}
 
+	.packages-four .title-outer .tab-btns{
+		width: 100%;
+		padding-top: 0;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.packages-four .title-outer .tab-buttons .tab-btn{
+		float: none;
+		display: inline-block;
+		margin: 0 0px 23px;
+	}
+
+	.packages-four .title-outer .title-box{
+		width: 100%;
+		text-align: center;
+	}
+
 	.featured-block-one h3{
 		font-size: 26px;
 	}

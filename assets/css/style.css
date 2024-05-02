@@ -4863,6 +4863,53 @@ body.visible-sidebar{
   margin-bottom: 45px;
 }
 
+.packages-four{
+  position: relative;
+  padding: 0;
+  z-index: 5;
+}
+
+.packages-four .pkg-tabs{
+  padding-bottom: 115px;
+}
+
+.packages-four .row{
+  margin: 0 -12px;
+}
+
+.packages-four .row .package-block{
+  padding: 0 12px;
+  margin-bottom: 24px;
+}
+
+.packages-four .bg-layer{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 112%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+.packages-four .title-outer{
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.packages-four .title-outer .title-box{
+  float: left;
+  margin-bottom: 45px;
+}
+
+.packages-four .title-outer .tab-btns{
+  position: relative;
+  float: right;
+  padding-top: 60px;
+  margin-bottom: 45px;
+}
+
 .tab-btn .top-desti-tab {
   background: var(--secondary-color);
   padding: 10px 15px;
@@ -4928,6 +4975,57 @@ body.visible-sidebar{
 }
 
 .packages-two .featured-block-one{
+  margin-bottom: 24px;
+}
+
+.packages-four .title-outer .tab-buttons{
+  position: relative;
+}
+
+.packages-four .title-outer .tab-buttons .tab-btn{
+  position: relative;
+  margin-right: 25px;
+  color: var(--dark-gray-gray);
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family: 'Gilroy_Bold', sans-serif;
+}
+
+.packages-four .title-outer .tab-buttons .tab-btn:last-child{
+  margin-right: 0;
+}
+
+.packages-four .title-outer .tab-buttons .active-btn{
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.packages-four .lower-data{
+  position: relative;
+  top: 150px;
+  margin-top: -100px;
+  margin-bottom: 100px;
+}
+
+.packages-four .lower-data .d-elem-1{
+  position: absolute;
+  left: -80px;
+  top: -100px;
+}
+
+.packages-four .lower-data .content-box{
+  position: relative;
+}
+
+.packages-four .lower-data .row{
+  margin: 0 -12px;
+}
+
+.packages-four .lower-data .row .data-col{
+  padding: 0 12px;
+}
+
+.packages-four .featured-block-one{
   margin-bottom: 24px;
 }
 
